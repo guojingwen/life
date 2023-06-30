@@ -1,9 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T07:46:16.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xuOqpUYmzKmjxPE3v4QU" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T08:15:15.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3wbPa6OxFNh9sJk2DTw-" version="21.5.1" type="github">
   <diagram name="第 1 页" id="XDz6YF2L2uJj3fXWm7Vl">
-    <mxGraphModel dx="1004" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="-526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-3" target="PSa43Rl8ofc3vlFHLHRh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-3" value="构建DOM树" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-5" target="PSa43Rl8ofc3vlFHLHRh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-5" value="样式计算" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-6" value="1. 所有样式表转换为styleSheets 即CSSOM&lt;br&gt;2. 转换样式表的属性和值，标准化的计算值&lt;br&gt;3. 计算出DOM树中每个节点的具体样式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1190" width="264" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-8" target="PSa43Rl8ofc3vlFHLHRh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-8" value="布局阶段&lt;br&gt;LayoutTree" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-9" value="布局： 计算出DOM树中的可见元素的几何位置&lt;br&gt;1. 创建布局树（DOM + ComputedStyle）&lt;br&gt;2. 布局计算 （计算布局树中的坐标位置）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1300" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-11" target="PSa43Rl8ofc3vlFHLHRh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-11" value="分层&lt;br&gt;LayerTree" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-12" value="渲染引擎还需要为特定的节点生成专用图层，并生成一颗对应的图层树" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1340" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-13" value="如果一个节点没有对应的层，那么这个节点就从属于父节点的图层&lt;br&gt;1. 拥有层叠上下文属性的元素会被提升为单独的一层&lt;br&gt;2. 需要剪裁的地方也会被创建为图层&lt;br&gt;&lt;br&gt;&lt;span style=&quot;padding: 0px; margin: 0px; color: transparent; position: absolute; cursor: text; transform-origin: 0% 0%; background-color: rgb(255, 255, 255); left: 75.8461px; top: 701.152px; font-size: 21.2599px; font-family: sans-serif; transform: scaleX(1.00046);&quot;&gt;这个节点就从属于父节点的图层&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="1370" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-16" target="PSa43Rl8ofc3vlFHLHRh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-15" value="主线程把绘制列表提交给合成线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PSa43Rl8ofc3vlFHLHRh-14">
+          <mxGeometry x="0.1225" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-16" value="图层绘制（Paint）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1440" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-17" value="&lt;b&gt;1.对每个图层进行绘制&lt;/b&gt;&lt;br&gt;渲染引擎将图层绘制拆成很小的绘制指令&lt;br&gt;然后再把这些指令按照顺序组成一个待绘制列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1420" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-18" value="所有图块都被光珊化后&lt;br&gt;合成线程提交绘制命令给浏览器进程" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-19" target="PSa43Rl8ofc3vlFHLHRh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-19" value="珊格化操作" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-20" value="&lt;b&gt;合成线程将图层划分为图块&lt;br&gt;然后在调用珊格化线程生成位图 （分块）&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.优先处理视口附近的图块&lt;br&gt;2. 快速珊格化：一般都会使用GPU珊格化&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1525" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-21" value="合成和显示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-22" value="浏览器进程页面绘制到内存中&lt;br&gt;再将内存显示在屏幕上" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1655" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSa43Rl8ofc3vlFHLHRh-23" target="PSa43Rl8ofc3vlFHLHRh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-23" value="前面浏览器进程完成提交文档给渲染进程&lt;br&gt;并于网络进程绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSa43Rl8ofc3vlFHLHRh-25" value="&lt;b&gt;2. 主线程表绘制列表提交给合成线程&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1460" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
