@@ -1,121 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T03:32:15.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cc-1y3Kl0BI-OrELFQCf" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T08:21:57.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TV5LELTIpsJWEC5z110s" version="21.6.5" type="github">
   <diagram name="第 1 页" id="3cMhDdvCLDCUDS7P29Dp">
-    <mxGraphModel dx="1252" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F_t4GFWggmV5oPJhnei1-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;HTTP协议进化史&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;HTTP协议进化史&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="230" width="156" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-4" value="HTTP/0.9&lt;br&gt;1991年提出，用于学术交流" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-4" value="HTTP/0.9&lt;br&gt;1991年提出，用于学术交流" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="300" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-5" value="只有一个请求行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-4">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-5" value="只有一个请求行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-4" vertex="1">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-6" value="服务器也没有返回头信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-4">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-6" value="服务器也没有返回头信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-4" vertex="1">
           <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-7" value="ASCII 字符流来传输" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-4">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-7" value="ASCII 字符流来传输" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-4" vertex="1">
           <mxGeometry y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F_t4GFWggmV5oPJhnei1-8" target="F_t4GFWggmV5oPJhnei1-11">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="F_t4GFWggmV5oPJhnei1-8" target="F_t4GFWggmV5oPJhnei1-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-8" value="1994年底出现拨号上网&lt;br&gt;同年网景又推出一款浏览器&lt;br&gt;随之而来W3C和HTTP工作组" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-8" value="1994年底出现拨号上网&lt;br&gt;同年网景又推出一款浏览器&lt;br&gt;随之而来W3C和HTTP工作组" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="335" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F_t4GFWggmV5oPJhnei1-9" target="F_t4GFWggmV5oPJhnei1-21">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="F_t4GFWggmV5oPJhnei1-9" target="F_t4GFWggmV5oPJhnei1-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-9" value="HTTP/1.1&amp;nbsp; 1996&lt;br&gt;增加请求头、请求内容、状态行、响应头" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-9" value="HTTP/1.0&amp;nbsp; 1996&lt;br&gt;增加请求头、请求内容、状态行、响应头" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="290" width="140" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-10" value="协商字段：文件类型、压缩算法、语言" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-9">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-10" value="协商字段：文件类型、压缩算法、语言" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-9" vertex="1">
           <mxGeometry y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-11" value="状态码（异常处理）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-9">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-11" value="状态码（异常处理）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-9" vertex="1">
           <mxGeometry y="80" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-12" value="Cache机制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-9">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-12" value="Cache机制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-9" vertex="1">
           <mxGeometry y="110" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-20" value="UA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-9">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-20" value="UA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-9" vertex="1">
           <mxGeometry y="140" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F_t4GFWggmV5oPJhnei1-6" target="F_t4GFWggmV5oPJhnei1-8">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="F_t4GFWggmV5oPJhnei1-6" target="F_t4GFWggmV5oPJhnei1-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-18" value="被浏览器推动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-18" value="被浏览器推动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="345" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-19" value="发展" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-19" value="发展" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="310" y="350" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F_t4GFWggmV5oPJhnei1-21" target="F_t4GFWggmV5oPJhnei1-29">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F_t4GFWggmV5oPJhnei1-21" target="F_t4GFWggmV5oPJhnei1-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-21" value="1999 HTTP1.1 完善" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-21" value="1999 HTTP1.1 完善" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="550" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-22" value="持久连接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-21">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-22" value="持久连接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-21" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-23" value="host 、catch优化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-21">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-23" value="host 、catch优化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-21" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-24" value="分片传输" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-21">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-24" value="分片传输" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-21" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-28" value="Cookie + 安全机制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-21">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-28" value="Cookie + 安全机制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-21" vertex="1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-26" value="需求迭代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-26" value="需求迭代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="745" y="508" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-27" value="为网络效率做了大量优化&lt;br&gt;1. 持久连接&lt;br&gt;2. CDN+域名分片技术" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-27" value="为网络效率做了大量优化&lt;br&gt;1. 持久连接&lt;br&gt;2. CDN+域名分片技术" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="530" y="610" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F_t4GFWggmV5oPJhnei1-29" target="F_t4GFWggmV5oPJhnei1-37">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F_t4GFWggmV5oPJhnei1-29" target="F_t4GFWggmV5oPJhnei1-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-29" value="2015 HTTP2&lt;br&gt;多路复用&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-29" value="2015 HTTP2&lt;br&gt;多路复用&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="550" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-30" value="通过二进制分帧层解决队头阻塞" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-29">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-30" value="通过二进制分帧层解决队头阻塞" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-29" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-31" value="头部二进制压缩" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-29">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-31" value="头部二进制压缩" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-29" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-32" value="服务器推送" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-29">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-32" value="服务器推送" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-29" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-33" value="请求优先级" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-29">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-33" value="请求优先级" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-29" vertex="1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-35" value="依旧存在的问题：&lt;br&gt;带宽不能重复利用&lt;br&gt;1. TCP的慢启动&lt;br&gt;2. 多个TCP竞争&lt;br&gt;3. 队头阻塞" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-35" value="依旧存在的问题：&lt;br&gt;带宽不能重复利用&lt;br&gt;1. TCP的慢启动&lt;br&gt;2. 多个TCP竞争&lt;br&gt;3. 队头阻塞" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="316" y="600" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-37" value="HTTP3&lt;br&gt;抛弃TCP包袱&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-37" value="HTTP3&lt;br&gt;抛弃TCP包袱&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="860" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-38" value="使用UDP&lt;br&gt;重写TCP和HTTP2功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-37">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-38" value="使用UDP&lt;br&gt;重写TCP和HTTP2功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-37" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-39" value="减少握手次说" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-37">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-39" value="减少握手次数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-37" vertex="1">
           <mxGeometry y="70" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-40" value="彻底解决了队头阻塞" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-37">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-40" value="彻底解决了队头阻塞" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-37" vertex="1">
           <mxGeometry y="100" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-48" value="拥塞控制 BBR算法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F_t4GFWggmV5oPJhnei1-37">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-48" value="拥塞控制 BBR算法，大幅提高了带宽利用率" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F_t4GFWggmV5oPJhnei1-37" vertex="1">
           <mxGeometry y="130" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-44" value="1. TCP层面依旧存在队头阻塞&lt;br&gt;2. TCP握手+TLS握手时间长&lt;br&gt;3. 中间设备僵化 很难升级TCP" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-44" value="1. TCP层面依旧存在队头阻塞&lt;br&gt;2. TCP握手+TLS握手时间长&lt;br&gt;3. 中间设备僵化 很难升级TCP" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="150" y="770" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F_t4GFWggmV5oPJhnei1-49" value="&lt;div&gt;改动了底层协议&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;推广面临巨大挑战&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="F_t4GFWggmV5oPJhnei1-49" value="&lt;div&gt;改动了底层协议&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;推广面临巨大挑战&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="310" y="917.5" width="120" height="45" as="geometry" />
         </mxCell>
       </root>
