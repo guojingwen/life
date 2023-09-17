@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T05:30:20.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Eoz1w9BXpgYFgwd0hFE2" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T05:38:04.378Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="P7nv5Gd_gGJ7tIGIMz07" version="21.6.8" type="github">
   <diagram name="第 1 页" id="Dieb2r_4ZCmCPJevkqm0">
     <mxGraphModel dx="1077" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-7cVYtZQI--8h56764MG-3" value="Dockerfile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=15;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="160" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-7cVYtZQI--8h56764MG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -109,6 +109,15 @@
         </mxCell>
         <mxCell id="-7cVYtZQI--8h56764MG-17" value="docker run [OPTIONS] image [COMMAND] [ARG...]&lt;br&gt;docker commit -m=&quot;detail&quot; -a=&quot;auther&quot; ID&amp;nbsp; NAME:TAG&lt;br&gt;docker start/restart ID&lt;br&gt;docker stop/kill [ID or Name]&lt;br&gt;docker rm ID&amp;nbsp; # 删除容器&lt;br&gt;docker ps 查询容器&lt;br&gt;docker logs -f -t -tail&amp;nbsp; ID&lt;br&gt;docker top ID # 查看容器日志&lt;br&gt;docker inspect # 查看容器细节&lt;br&gt;docker exec -it ID bashShelll # 进入容器&amp;nbsp;&lt;br&gt;docker attach ID # 重新进入，不会启动新的进程&lt;br&gt;docker cp ID:PATH HOSTPATH # 复制文件到宿主机" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="-7cVYtZQI--8h56764MG-16">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-7cVYtZQI--8h56764MG-32" value="Host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7cVYtZQI--8h56764MG-33" value="映射" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-7cVYtZQI--8h56764MG-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="770" as="sourcePoint" />
+            <mxPoint x="380" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
