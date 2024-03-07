@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T02:00:09.439Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="taMygBrpeq_PgICX9486" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T12:31:58.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aSOm4u-Ru2rCOykjAeVh" version="23.1.5" type="github">
   <diagram name="第 1 页" id="CH05KZtHkAMlW_S-y4NR">
-    <mxGraphModel dx="3013" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="230" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="mxMdlkY5SpVF3bLb9JjV-32" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -266,70 +266,67 @@
             <mxPoint x="1560" y="-470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-1" value="4-5人车&lt;br&gt;66¥" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-1" value="4-5人车&lt;br&gt;66¥" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="111.25" y="340" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-2" value="8人车&lt;br&gt;40¥" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-2" value="8人车&lt;br&gt;40¥" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="231.25" y="340" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=1.186;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mxMdlkY5SpVF3bLb9JjV-80">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=1.186;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxMdlkY5SpVF3bLb9JjV-80" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="240" as="sourcePoint" />
             <mxPoint x="450" y="306" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-5" value="&lt;font color=&quot;#007fff&quot;&gt;使用教程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-5" value="&lt;font color=&quot;#007fff&quot;&gt;使用教程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="900" y="1080" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-6" value="邀请有礼： 邀请好友免费领月卡 &amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-6" value="邀请有礼： 邀请好友免费领月卡 &amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="220" width="228.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-9" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;1. 活动规则： 点击登录获取你的专属邀请码，分享链接给好友，他将获得5元减免券；好友购买会员，你将获得8元减免券，活动奖励累加，最多可叠加3张优惠券（注：优惠券不与邀请码叠加）&lt;/p&gt;&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 150%;&quot;&gt;2 活动时间 ： 1月12日 00:00:00 - 1月25日 23:59:59&amp;nbsp; （注：活动结束优惠券与邀请码同时失效）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-9" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;1. 活动规则： 点击登录获取你的专属邀请码，分享链接给好友，他将获得5元减免券；好友购买会员，你将获得8元减免券，活动奖励累加，最多可叠加3张优惠券（注：优惠券不与邀请码叠加）&lt;/p&gt;&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 150%;&quot;&gt;2 活动时间 ： 1月12日 00:00:00 - 1月25日 23:59:59&amp;nbsp; （注：活动结束优惠券与邀请码同时失效）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-350" y="330" width="260" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-10" value="邀请有礼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-10" value="邀请有礼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-260" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-13" value="我的邀请码： &lt;font color=&quot;#007fff&quot;&gt;XXXX1&lt;/font&gt; （复制链接）？&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-13" value="我的邀请码： &lt;font color=&quot;#007fff&quot;&gt;XXXX1&lt;/font&gt; （复制链接）？&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="506.25" y="300" width="233.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-14" value="邀请码连接示例： &lt;br&gt;https://sharegpt4.wamplace.cn/auth/login?Invit-code=xxxx1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-14" value="邀请码连接示例： &lt;br&gt;https://sharegpt4.wamplace.cn/auth/login?Invit-code=xxxx1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="33" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-15" value="网址&lt;br&gt;https://www.baidu.com/search?q=你好&amp;amp;s=xx#id&lt;br&gt;协议&amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;http&amp;nbsp; &amp;nbsp; 或&amp;nbsp; https&lt;br&gt;域名&amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;www.baidu.com&lt;br&gt;路径path&amp;nbsp; /search&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/x/xs/wx/x&lt;br&gt;参数search&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;?q=你好&amp;amp;s=xx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;锚点 hash&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-60" width="340" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-17" value="&amp;nbsp; ID&amp;nbsp; &amp;nbsp;invateOpenID&amp;nbsp; &amp;nbsp;InviteeOpenID&amp;nbsp; &amp;nbsp;status(0,1)&amp;nbsp; &amp;nbsp;create_time&amp;nbsp; &amp;nbsp;update_time&lt;br&gt;&amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 张三&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;李四&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;未支付" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-17" value="&amp;nbsp; ID&amp;nbsp; &amp;nbsp;invateOpenID&amp;nbsp; &amp;nbsp;InviteeOpenID&amp;nbsp; &amp;nbsp;status(0,1)&amp;nbsp; &amp;nbsp;create_time&amp;nbsp; &amp;nbsp;update_time&lt;br&gt;&amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 张三&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;李四&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;未支付" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-430" y="585" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-20" value="邀请表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-20" value="邀请表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-340" y="555" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-21" value="&lt;font color=&quot;#007fff&quot;&gt;使用教程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-21" value="&lt;font color=&quot;#007fff&quot;&gt;使用教程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1022.81" y="1080" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-22" value="&lt;font color=&quot;#007fff&quot;&gt;投诉与建议&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-22" value="&lt;font color=&quot;#007fff&quot;&gt;投诉与建议&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="970" y="960" width="85.63" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-23" value="&lt;font color=&quot;#007fff&quot;&gt;我已邀请3人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-23" value="&lt;font color=&quot;#007fff&quot;&gt;我已邀请3人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="555" y="320" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="976" y="-80" width="274" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-26" value="我的邀请人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-26" value="我的邀请人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="-60" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-27" value="1. 1月18日&amp;nbsp; 张三购买了4-5人车月卡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-27" value="1. 1月18日&amp;nbsp; 张三购买了4-5人车月卡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="-5" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-28" value="1. 1月17日&amp;nbsp; 张三购买了4-5人车月卡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-28" value="1. 1月17日&amp;nbsp; 张三购买了4-5人车月卡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1005.76" y="20" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-30" value="ID&amp;nbsp; &amp;nbsp;openID sid&amp;nbsp; loginTime&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-30" value="ID&amp;nbsp; &amp;nbsp;openID sid&amp;nbsp; loginTime&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-850" y="680" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ti6y5HSN12eSMZvFAZEw-31" value="登录表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ti6y5HSN12eSMZvFAZEw-31" value="登录表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="640" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
